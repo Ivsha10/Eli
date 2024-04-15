@@ -1,0 +1,64 @@
+.cards {
+    display: flex;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.card {
+    width: 350px;
+    text-align: center;
+    font-size: 18px !important;
+    min-height: fit-content;
+    height: 60vh;
+    margin-top: 20px;
+    justify-content: space-between; 
+    border: 1px solid grey !important;
+
+}
+
+.card img, .card button {
+
+    width: 100%;
+
+}
+
+
+
+
+.card button {
+
+    width: 90%;
+    padding: 5px;
+    margin: 5px auto;
+    justify-self: flex-end;
+    background-color: rgb(241, 221, 0);
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+
+.card button:hover {
+
+    background-color: rgb(255, 183, 0);
+    transition: .3s ease-in-out;
+}
+
+.card .product-name:hover {
+
+    cursor: pointer;
+    color: rgb(255, 183, 0);
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+
+}
+
+header nav {
+    height: 100px;
+}

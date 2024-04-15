@@ -1,0 +1,56 @@
+.product-container {
+    display: flex;
+    flex-direction: row;
+    width: 100 vw;
+    margin: 0;
+    padding: 10px;
+    height: 70vh;
+    justify-content: space-around;
+}
+
+.product-container img {
+    width: 500px;
+    object-fit: contain;
+}
+
+.product-container {
+    
+}
+
+.content-container { 
+    width: 50%;
+}
+
+
+.content-container button {
+
+    width: 35%;
+    padding: 5px;
+    margin: 5px auto;
+    justify-self: flex-end;
+    background-color: rgb(241, 221, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.content-container button:hover {
+
+    background-color: rgb(255, 183, 0);
+    transition: .3s ease-in-out;
+}
+header nav {
+    height: 100px;
+}
+/* header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */

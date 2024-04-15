@@ -1,0 +1,93 @@
+/* Navigation */
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #ff523b;
+}
+
+.cart-item {
+    margin-bottom: 1rem;
+}
+
+/* Banner */
+.banner-image {
+    background: url('img/banner.jpg') no-repeat center center / cover;
+    min-height: 600px;
+}
+
+/* Feature Products Card */
+.card-title a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    .banner-image {
+        min-height: 300px; /* Adjust banner image for smaller devices */
+    }
+}
+/*background color */
+.bg-warning { 
+    background-color: #373b47; 
+}
+
+body {
+    overflow-x: auto;
+}
+.container-1 {
+    
+}
+
+.cards { 
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+.card img, .card button {
+
+    width: 100%;
+}
+
+.card {
+
+    justify-content: space-between;
+}
+
+ {
+
+}
+
+.card button {
+
+    width: 90%;
+    padding: 5px;
+    margin: 5px auto;
+    justify-self: flex-end;
+    background-color: rgb(241, 221, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.card button:hover {
+
+    background-color: rgb(255, 183, 0);
+    transition: .3s ease-in-out;
+}
+
+.card .product-name:hover {
+
+    cursor: pointer;
+    color: rgb(255, 183, 0);
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+
+}
